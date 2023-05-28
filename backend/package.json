@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "E-Commerce Dashboard",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev":"nodemon index.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohithowlader/e-commerce-Dashboard.git"
+  },
+  "author": "Rohit Howlader",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohithowlader/e-commerce-Dashboard/issues"
+  },
+  "homepage": "https://github.com/rohithowlader/e-commerce-Dashboard#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
